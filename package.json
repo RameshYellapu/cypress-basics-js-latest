@@ -1,0 +1,21 @@
+{
+  "name": "cypress-basics-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:run:chrome": "cypress run --browser chrome",
+    "cy:run:commands:test": "cypress run --spec cypress/integration/specs/querying.spec.js"
+  },
+  "keywords": [
+    "cypress",
+    "JavaScript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.8.1"
+  }
+}
